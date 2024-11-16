@@ -32,7 +32,16 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then((answers) => {
+      const markdown = generateMarkdown(answers); 
+      writeToFile('README.md', markdown);        
+    })
+    .catch((error) => {
+      console.error("An error occurred:", error);
+    });
+}
 
 // Function call to initialize app
 init();

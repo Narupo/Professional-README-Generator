@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -36,7 +37,7 @@ function init() {
     inquirer.prompt(questions)
     .then((answers) => {
       const markdown = generateMarkdown(answers); 
-      writeToFile('README.md', markdown);        
+      writeToFile('./files/README.md', markdown);        
     })
     .catch((error) => {
       console.error("An error occurred:", error);

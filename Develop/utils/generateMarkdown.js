@@ -28,7 +28,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (!license || license === 'None') {
-    return ''; // Return empty if no license is selected
+    return ''; 
   }
 
   return `## License

@@ -1,7 +1,7 @@
-# test
+# Vehicle-Builder
 
   ## Description
-  test
+  An application that uses TypeScript and OOP to build and save vehicles. The application also allows users to perform actions with the vehicles that are created and stored.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -12,23 +12,22 @@
   - [Questions](#questions)
 
   ## Installation
-  test
+  Need to do
 
   ## Usage
-  test
+  Need to do
 
   ## Contributing
-  test
+  This is a personal project, contributions will not be accepted.
 
   ## Tests
-  test
+  Need to do
 
   ## License
-  ## License
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+  
 
   ## Questions
   For additional questions, please contact me:
-  - GitHub: [test](https://github.com/test)
-  - Email: [test](mailto:test)
+  - GitHub: [Narupo](https://github.com/Narupo)
+  - Email: [pouzumaki@gmail.com](mailto:pouzumaki@gmail.com)
   
